@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Estados_subreport" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="bd5cfea5-cf13-4a15-a6ad-66a165f55a03">
+	<property name="zoom.factor" value="50.0"/>
+	<property name="DATASOURCE" value="jdbc/main"/>
+	<property name="REPORT_DATASET" value="[{&quot;name&quot;:&quot;TESTE&quot;,&quot;j4CDataset&quot;:{&quot;datasetType&quot;:&quot;DATASOURCE&quot;,&quot;freeQuery&quot;:true,&quot;jndiConnection&quot;:&quot;jdbc/main&quot;,&quot;sql&quot;:&quot;SELECT\n    \&quot;CIDADE\&quot;.nom_cidade as Cidade,\n    \&quot;ESTADO\&quot;.nom_estado \nFROM\n    \&quot;CIDADE\&quot; ,\n    \&quot;ESTADO\&quot; \nWHERE\n    \&quot;ESTADO\&quot;.fk_cidade \u003d \&quot;CIDADE\&quot;.id\n    AND \&quot;ESTADO\&quot;.nom_estado \u003d  $P{PARAM_ESTADO}&quot;,&quot;recordLimit&quot;:10,&quot;tables&quot;:[{&quot;name&quot;:&quot;CIDADE&quot;}],&quot;joins&quot;:[{&quot;right&quot;:{&quot;parent&quot;:{&quot;name&quot;:&quot;CIDADE&quot;},&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},&quot;operator&quot;:&quot;EQUALS&quot;,&quot;left&quot;:{&quot;parent&quot;:{&quot;name&quot;:&quot;ESTADO&quot;},&quot;name&quot;:&quot;fk_cidade&quot;,&quot;type&quot;:&quot;VARCHAR&quot;}}],&quot;columns&quot;:[{&quot;parent&quot;:{&quot;name&quot;:&quot;CIDADE&quot;},&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;CIDADE&quot;},&quot;name&quot;:&quot;nom_cidade&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;ESTADO&quot;},&quot;name&quot;:&quot;fk_cidade&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;ESTADO&quot;},&quot;name&quot;:&quot;nom_estado&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;ESTADO&quot;},&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;VARCHAR&quot;}],&quot;wheres&quot;:[],&quot;persistenceUnitName&quot;:&quot;app&quot;},&quot;main&quot;:true}]"/>
+	<parameter name="PARAM_ESTADO" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+    "CIDADE".nom_cidade as Cidade,
+    "ESTADO".nom_estado 
+FROM
+    "CIDADE" ,
+    "ESTADO" 
+WHERE
+    "ESTADO".fk_cidade = "CIDADE".id
+    AND "ESTADO".nom_estado =  $P{PARAM_ESTADO}]]>
+	</queryString>
+	<field name="nom_estado" class="java.lang.String">
+		<fieldDescription><![CDATA[nom_estado]]></fieldDescription>
+	</field>
+	<field name="Cidade" class="java.lang.String">
+		<fieldDescription><![CDATA[Cidade]]></fieldDescription>
+	</field>
+	<title>
+		<band height="24"/>
+	</title>
+	<pageHeader>
+		<band height="19"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="25"/>
+	</columnHeader>
+	<detail>
+		<band height="27">
+			<textField>
+				<reportElement x="1" y="1" width="100" height="20" uuid="b5eed8e1-0867-4c59-a307-3c9d0d9e1d7c"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Cidade}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="29"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="26"/>
+	</pageFooter>
+	<summary>
+		<band height="28"/>
+	</summary>
+</jasperReport>
