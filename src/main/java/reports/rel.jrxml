@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rel.jrxml_481" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Key" uuid="8b001378-38b9-4cfd-b378-fffd7745cc32">
+	<property name="JASPER_EDITED" value="true"/>
+	<property name="J4C_OBJECT" value="{&quot;name&quot;:&quot;rel.jrxml&quot;,&quot;title&quot;:{&quot;value&quot;:&quot;Teste&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;subTitle&quot;:{&quot;value&quot;:&quot;Sub&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;conditionalLinesColor&quot;:false,&quot;dataset&quot;:{&quot;datasetType&quot;:&quot;DATASOURCE&quot;,&quot;freeQuery&quot;:false,&quot;jndiConnection&quot;:&quot;jdbc/main&quot;,&quot;recordLimit&quot;:10,&quot;tables&quot;:[{&quot;name&quot;:&quot;USER&quot;}],&quot;joins&quot;:[],&quot;columns&quot;:[{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;theme&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;picture&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;password&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;name&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;login&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;email&quot;,&quot;type&quot;:&quot;VARCHAR&quot;},{&quot;parent&quot;:{&quot;name&quot;:&quot;USER&quot;},&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;VARCHAR&quot;}],&quot;wheres&quot;:[],&quot;persistenceUnitName&quot;:&quot;app&quot;},&quot;pagination&quot;:false,&quot;fields&quot;:[{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;theme&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;theme&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;picture&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;picture&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;password&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;password&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;name&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;name&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;group&quot;:{&quot;column&quot;:&quot;name&quot;,&quot;groupLayout&quot;:&quot;DEFAULT&quot;,&quot;startInNewPage&quot;:false}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;login&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;login&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;email&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;email&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}},{&quot;type&quot;:&quot;java.lang.String&quot;,&quot;text&quot;:{&quot;value&quot;:&quot;id&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;},&quot;title&quot;:{&quot;value&quot;:&quot;id&quot;,&quot;font&quot;:{&quot;name&quot;:&quot;Arial&quot;,&quot;size&quot;:10,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;underline&quot;:false},&quot;mode&quot;:&quot;OPAQUE&quot;,&quot;forecolor&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0},&quot;backcolor&quot;:{&quot;value&quot;:-1,&quot;falpha&quot;:0.0},&quot;horizontalAlignment&quot;:&quot;LEFT&quot;,&quot;verticalAlignment&quot;:&quot;TOP&quot;,&quot;borderTop&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderBottom&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderLeft&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;borderRight&quot;:{&quot;lineStyle&quot;:&quot;SOLID&quot;,&quot;width&quot;:&quot;NONE&quot;,&quot;color&quot;:{&quot;value&quot;:-16777216,&quot;falpha&quot;:0.0}},&quot;pattern&quot;:&quot;&quot;}}],&quot;page&quot;:{&quot;topMargin&quot;:20,&quot;bottomMargin&quot;:20,&quot;leftMargin&quot;:20,&quot;rightMargin&quot;:20,&quot;lineSpace&quot;:0,&quot;leaf&quot;:&quot;A4&quot;,&quot;format&quot;:&quot;PORTRAIT&quot;},&quot;parameters&quot;:[]}"/>
+	<property name="DATASOURCE" value="jdbc/main"/>
+	<property name="zoom.factor" value="50.0"/>
+	<style name="dj_style_1_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_2_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_3_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_4_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_5_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_6_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_7_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_8_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_9_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_10_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_group_0_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_11_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_theme_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_12_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_picture_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_13_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_password_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_name_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_14_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_login_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_15_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_email_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="dj_style_16_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Arial_for_column_id_" mode="Opaque" forecolor="#000000" backcolor="#FFFFFF" radius="0" hTextAlign="Left" hImageAlign="Left" vTextAlign="Top" vImageAlign="Top" rotation="None" pattern="" isBlankWhenNull="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isPdfEmbedded="false">
+		<box padding="2">
+			<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<queryString>
+		<![CDATA[SELECT
+    "USER".theme ,
+    "USER".picture ,
+    "USER".password ,
+    "USER".name ,
+    "USER".login ,
+    "USER".email ,
+    "USER".id 
+FROM
+    "USER"]]>
+	</queryString>
+	<field name="theme" class="java.lang.String"/>
+	<field name="picture" class="java.lang.String"/>
+	<field name="password" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="login" class="java.lang.String"/>
+	<field name="email" class="java.lang.String"/>
+	<field name="id" class="java.lang.String"/>
+	<group name="rel.jrxml_481_group[0]_for_column_3-name">
+		<groupExpression><![CDATA[$F{name}]]></groupExpression>
+		<groupHeader>
+			<band splitType="Immediate">
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement style="Arial_for_group_0_" positionType="Float" x="237" y="0" width="79" height="0" isPrintWhenDetailOverflows="true" printWhenGroupChanges="rel.jrxml_481_group[0]_for_column_3-name" uuid="0c761e6f-67f1-4515-87bc-f22b262faf5b"/>
+					<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band splitType="Immediate"/>
+		</groupFooter>
+	</group>
+	<pageHeader>
+		<band height="45">
+			<textField pattern="">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="555" height="30" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="58c81268-6cdc-49c8-a02a-85ca9d2abd37">
+					<printWhenExpression><![CDATA[new java.lang.Boolean(((Number)$V{PAGE_NUMBER}).doubleValue() == 1)]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["Teste"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="30" width="555" height="15" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="13702970-3620-4aee-9145-8f40fca7a84b">
+					<printWhenExpression><![CDATA[new java.lang.Boolean(((Number)$V{PAGE_NUMBER}).doubleValue() == 1)]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["Sub"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30">
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="214342f7-3f7e-4488-98c2-8bd8d2dfc22c"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["theme"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="79" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="943344d1-04dd-42e2-a079-2e58f6a7e74d"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["picture"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="158" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="55e81001-a733-4027-aa00-796a10be8910"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["password"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="237" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="75bec7ee-dc51-404e-91c4-d1d3d563760f"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["name"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="316" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="f49c8fc4-2680-4edf-a86e-8b06cdd8eed3"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["login"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="395" y="0" width="79" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="b8759432-229a-462d-830e-b8b19a17fb8e"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["email"]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="474" y="0" width="81" height="30" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="4df6f154-4d6c-4a9c-b30c-9ee6ecd4fff1"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA["id"]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="01e9a67b-18f3-427e-9ba6-e6f53aeeb127"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{theme}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="79" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="757114e4-71fc-4945-9215-3e91bcfc5d82"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{picture}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="158" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="e303effd-cd68-49e6-ad29-b4360ad108f4"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{password}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="316" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="57eacd88-edca-4836-8d6c-949a8f0beb40"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{login}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="395" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="d4e0b90a-8f30-4e50-af2b-2f98802d63ba"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="474" y="0" width="81" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="891e1008-b7d1-4185-a62c-c01b8ed14127"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="20"/>
+	</pageFooter>
+	<summary>
+		<band height="20"/>
+	</summary>
+</jasperReport>
