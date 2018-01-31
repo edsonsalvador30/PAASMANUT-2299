@@ -10,7 +10,7 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-	"cronapp.framework.authentication.social",
+	
 	"cronapp.framework.authentication.normal",
 	"cronapp.framework.authentication.security",
 	"cronapp.framework.rest",
@@ -28,6 +28,7 @@ public class SpringBootMain extends SpringBootServletInitializer {
     static {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
     }
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMain.class, args);

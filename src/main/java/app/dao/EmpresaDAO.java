@@ -16,44 +16,40 @@ import org.springframework.transaction.annotation.*;
  * 
  * @generated
  */
-@Repository("RoleDAO")
+@Repository("EmpresaDAO")
 @Transactional(transactionManager="app-TransactionManager")
-public interface RoleDAO extends JpaRepository<Role, RolePK> {
+public interface EmpresaDAO extends JpaRepository<Empresa, java.lang.String> {
 
   /**
-   * Obtém a instância de Role utilizando os identificadores
+   * Obtém a instância de Empresa utilizando os identificadores
    * 
    * @param id
-   *          Identificador 
-   * @param user_id
    *          Identificador 
    * @return Instância relacionada com o filtro indicado
    * @generated
    */    
-  @Query("SELECT entity FROM Role entity WHERE entity.id = :id AND entity.user.id = :user_id")
-  public Role findOne(@Param(value="id") java.lang.String id, @Param(value="user_id") java.lang.String user_id);
+  @Query("SELECT entity FROM Empresa entity WHERE entity.id = :id")
+  public Empresa findOne(@Param(value="id") java.lang.String id);
 
   /**
-   * Remove a instância de Role utilizando os identificadores
+   * Remove a instância de Empresa utilizando os identificadores
    * 
    * @param id
-   *          Identificador 
-   * @param user_id
    *          Identificador 
    * @return Quantidade de modificações efetuadas
    * @generated
    */    
   @Modifying
-  @Query("DELETE FROM Role entity WHERE entity.id = :id AND entity.user.id = :user_id")
-  public void delete(@Param(value="id") java.lang.String id, @Param(value="user_id") java.lang.String user_id);
+  @Query("DELETE FROM Empresa entity WHERE entity.id = :id")
+  public void delete(@Param(value="id") java.lang.String id);
 
 
 
   /**
-   * Foreign Key user
+   * OneToMany Relation
    * @generated
    */
-  @Query("SELECT entity FROM Role entity WHERE entity.user.id = :id")
-  public Page<Role> findRolesByUser(@Param(value="id") java.lang.String id, Pageable pageable);
+  @Query("SELECT entity FROM Cidade entity WHERE entity.empresa.id = :id")
+  public Page<Cidade> findCidade(@Param(value="id") java.lang.String id, Pageable pageable);
 
 }

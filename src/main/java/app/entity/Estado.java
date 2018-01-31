@@ -10,16 +10,15 @@ import cronapi.rest.security.CronappSecurity;
 
 
 /**
- * Classe que representa a tabela ROLE
+ * Classe que representa a tabela ESTADO
  * @generated
  */
 @Entity
-@IdClass(RolePK.class)
-@Table(name = "\"ROLE\"")
+@Table(name = "\"ESTADO\"")
 @XmlRootElement
-@CronappSecurity(post = "Administrators", get = "Administrators", delete = "Administrators", put = "Administrators")
-@JsonFilter("app.entity.Role")
-public class Role implements Serializable {
+@CronappSecurity
+@JsonFilter("app.entity.Estado")
+public class Estado implements Serializable {
 
   /**
    * UID da classe, necessário na serialização
@@ -35,17 +34,25 @@ public class Role implements Serializable {
   private java.lang.String id = UUID.randomUUID().toString().toUpperCase();
 
   /**
-   * @generated
-   */
-  @Id
-  @JoinColumn(name="fk_user", nullable = false, referencedColumnName = "id", insertable=true, updatable=true)
-  private User user;
+  * @generated
+  */
+  @Column(name = "nom_estado", nullable = true, unique = false, insertable=true, updatable=true)
+  
+  private java.lang.String nom_estado;
+
+  /**
+  * @generated
+  */
+  @ManyToOne
+  @JoinColumn(name="fk_cidade", nullable = true, referencedColumnName = "id", insertable=true, updatable=true)
+  
+  private Cidade cidade;
 
   /**
    * Construtor
    * @generated
    */
-  public Role(){
+  public Estado(){
   }
 
 
@@ -64,28 +71,48 @@ public class Role implements Serializable {
    * @param id id
    * @generated
    */
-  public Role setId(java.lang.String id){
+  public Estado setId(java.lang.String id){
     this.id = id;
     return this;
   }
 
   /**
-   * Obtém user
-   * return user
+   * Obtém nom_estado
+   * return nom_estado
    * @generated
    */
   
-  public User getUser(){
-    return this.user;
+  public java.lang.String getNom_estado(){
+    return this.nom_estado;
   }
 
   /**
-   * Define user
-   * @param user user
+   * Define nom_estado
+   * @param nom_estado nom_estado
    * @generated
    */
-  public Role setUser(User user){
-    this.user = user;
+  public Estado setNom_estado(java.lang.String nom_estado){
+    this.nom_estado = nom_estado;
+    return this;
+  }
+
+  /**
+   * Obtém cidade
+   * return cidade
+   * @generated
+   */
+  
+  public Cidade getCidade(){
+    return this.cidade;
+  }
+
+  /**
+   * Define cidade
+   * @param cidade cidade
+   * @generated
+   */
+  public Estado setCidade(Cidade cidade){
+    this.cidade = cidade;
     return this;
   }
 
@@ -96,9 +123,8 @@ public class Role implements Serializable {
   public boolean equals(Object obj) {
     if (this == obj) return true;
     if (obj == null || getClass() != obj.getClass()) return false;
-    Role object = (Role)obj;
+    Estado object = (Estado)obj;
     if (id != null ? !id.equals(object.id) : object.id != null) return false;
-    if (user != null ? !user.equals(object.user) : object.user != null) return false;
     return true;
   }
 
@@ -109,7 +135,6 @@ public class Role implements Serializable {
   public int hashCode() {
     int result = 1;
     result = 31 * result + ((id == null) ? 0 : id.hashCode());
-    result = 31 * result + ((user == null) ? 0 : user.hashCode());
     return result;
   }
 
